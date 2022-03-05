@@ -1,0 +1,10 @@
+#accepting input
+income =float(input("Enter the amount $:"))
+#first tax condition
+if income>94636:
+	tax=(income*18/100)-667
+	print("Income after tax is:",tax)#printing income after deduion
+##second tax condition
+elif income<64636:
+	tax=18436+285
+	print("Tax is:",tax)#printing income after deduion
