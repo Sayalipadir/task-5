@@ -1,0 +1,25 @@
+def bubbleSort(arr):
+    
+  # loop to access each array element
+  for i in range(len(arr)):
+
+    # loop to compare array elements
+    for j in range(0, len(arr) - i - 1):
+
+      # compare two adjacent elements
+      if arr[j] < arr[j + 1]:
+
+        # swapping elements 
+        temp = arr[j]
+        array[j] = arr[j+1]
+        arr[j+1] = temp
+
+# input of the array
+array = [12,45,32, 0, 7, -45, 9, 2, 7]
+
+# calling the function
+bubbleSort(array)
+
+# print the array in descening order
+print('Sorted Array in descending Order:')
+print(array)
